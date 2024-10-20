@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RABBITS</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <section id="nav">
+        <header>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="dog.html">DOGS</a></li>
+                    <li><a href="puppies.html">PUPPIES</a></li>
+                    <li><a href="cats.html">CATS</a></li>
+                    <li><a href="rabbit.html">RABBITS</a></li>
+                    <li><a href="hamster.html">HAMSTER</a></li>
+                    <li><a href="index.html#more">FOR MORE INFORMATION</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+
+
+        <!-- picture of open wave -->
+        <div id="menuBtn">
+            <img src="IMAGES/menu.png" alt="menu button" id="menu">
+        </div>
+        <br>
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var nav = document.getElementById("nav")
+            var menu = document.getElementById("menu")
+    
+            nav.style.right = "-250px";
+    
+            menuBtn.onclick = function () {
+                if (nav.style.right == "-250px") {
+                    nav.style.right = "0";
+                    // The picture of close button nav
+                    menu.src = "./IMAGES/close.png";
+                }
+                else {
+                    nav.style.right = "-250px";
+                    menu.src = "./IMAGES/menu.png";
+                }
+            }
+    
+        </script>
+
+
+    <h1 class="header">RABBITS FOR ADOPTION</h1>
+    <section>
+        <div class="rabbit">
+            <div>
+                <img src="IMAGES/rabbit2.jpeg" alt="">
+                <p class="ice">PRICE:₦ 17,000</p>
+                <p class="age">AGE: 7 months old</p>
+                <button>BUY ME</button>
+            </div>
+            <div>
+                <img src="IMAGES/rabbit3.jpg" alt="">
+                <p class="ice">PRICE: ₦18,000</p>
+                <p class="age">AGE:8 months old</p>
+                <button>BUY ME</button>
+            </div>
+            <div>
+                <img src="IMAGES/rabbit4.jpeg" alt="">
+                <p class="ice">PRICE: ₦14,000</p>
+                <p class="age">AGE:6 months old</p>
+                <button>BUY ME</button>
+            </div>
+            <div>
+                <img src="IMAGES/rabbit5.jpeg" alt="">
+                <p class="ice">PRICE: ₦ 19,000</p>
+                <p class="age">AGE:9 months old</p>
+                <button>BUY ME</button>
+            </div>
+            <div>
+                <img src="IMAGES/rabbit6.jpeg" alt="">
+                <p class="ice">PRICE: ₦16,000</p>
+                <p class="age">AGE:6 months old</p>
+                <button>BUY ME</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
