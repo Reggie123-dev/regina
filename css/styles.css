@@ -1,14 +1,18 @@
 /* style for dogs.html begins */
 #dog {
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr ;
+   grid-template-columns: 1fr 1fr 1fr;
 }
+
 #woo {
    background-color: azure;
 }
+
 #dog .dogs {
    margin-left: 40px;
-}#dog .dogs img{
+}
+
+#dog .dogs img {
    width: 100%;
    height: 50vh;
    object-fit: cover;
@@ -16,7 +20,7 @@
 
 /* nav */
 
-.age{
+.age {
    font-size: 30px;
 }
 
@@ -24,8 +28,8 @@
 
 #dog .dogs {
    margin: 40px;
-   
-  }
+
+}
 
 #woo #dog .dogs img {
    object-fit: contain;
@@ -33,14 +37,15 @@
    height: 250px;
    gap: 10px;
 }
+
 /* dogs section ends */
 /* puppies */
 #puppy .puppies {
    margin-left: 50px;
 }
 
-#puppy .puppies img{
-   width:80%;
+#puppy .puppies img {
+   width: 80%;
    height: 300px;
 }
 
@@ -69,12 +74,6 @@
    color: black;
 }
 
-#wed {
-   font-size: 40px;
-   color: darkblue;
-   text-decoration: underline;
-   text-align: center;
-}
 
 .pup {
    font-size: 50px;
@@ -96,27 +95,24 @@
    background-color: bisque;
 }
 
-.pod {
-   font-size: 35px;
-   color: darkgreen;
-   text-align: center;
-   text-decoration: underline;
-}
 
 p {
    font-size: 15px;
 }
+
 /* cat section begins */
-#cats{
+#cats {
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr ;
+   grid-template-columns: 1fr 1fr 1fr;
 }
-#cats .cat img{
-width: 70%;
-height: 60vh;
-object-fit: cover;
+
+#cats .cat img {
+   width: 70%;
+   height: 60vh;
+   object-fit: cover;
 }
-#cats .cat{
+
+#cats .cat {
    margin-left: 40px;
 }
 
@@ -152,64 +148,63 @@ h1 {
 
 }
 
-button {
-   color: white;
-   background-color: rgba(19, 68, 110, 0.864);
-   padding: 1.2rem 10px;
-   border-radius: 20px 20px 20px 20px;
-   cursor: pointer;
-   box-shadow: black 10px 2px 10px;
-   margin-top: 10px;
-   margin-bottom: 30px;
-   width: 50%;
-   font-size: larger;
-   
-}
+
 
 
 #woo #puppy .puppies {
    margin-left: 50px;
 }
-.dip{
+
+.dip {
    font-size: 17x;
 }
-.p{
+
+.p {
    font-size: 18px;
 }
-.home{
+
+.home {
    display: grid;
-   grid-template-columns: 1fr 1fr ;
+   grid-template-columns: 1fr 1fr;
 }
+
 /* rabbit section starts */
-.rabbit{
+.rabbit {
    display: grid;
-   grid-template-columns: 1fr 1fr ;
+   grid-template-columns: 1fr 1fr 1fr;
 }
+
 .rabbit div {
    margin-left: 50px;
 }
-.rabbit div img{
-   width: 50%;
-   height: 220px;
+
+.rabbit div img {
+   width: 90%;
+   height: 250px;
    object-fit: cover;
 }
+
 /* rabbit section ends */
 /* hamster section starts */
-.hamster{
+.hamster {
    display: grid;
-   grid-template-columns: 1fr 1fr  ;
+   grid-template-columns: 1fr 1fr 1fr ;
 }
+
 .hamster div {
    margin-left: 50px;
 }
-.hamster div img{
-   width: 50%;
-   height: 220px;
+
+.hamster div img {
+   width: 90%;
+   height: 50vh;
    object-fit: cover;
 }
-.hamsters{
+
+.hamsters {
    margin-bottom: 50px;
 }
+
 /* hamster section ends */
 
 
@@ -218,7 +213,7 @@ button {
 #menuBtn {
    width: 50px;
    height: 50px;
-   background: black;
+   background:rgb(2, 2, 39);
    text-align: center;
    position: fixed;
    right: 30px;
@@ -235,9 +230,22 @@ button {
    margin-top: 15px;
 
 }
+button {
+   color: white;
+   background-color: rgba(19, 68, 110, 0.864);
+   padding: 1.2rem 10px;
+   border-radius: 20px 20px 20px 20px;
+   cursor: pointer;
+   box-shadow: black 10px 2px 10px;
+   margin-top: 10px;
+   margin-bottom: 40px;
+   width: 50%;
+   font-size: larger;
+
+}
 
 /* nav */
-#nav{
+#nav {
    width: 250px;
    height: 100vh;
    position: fixed;
@@ -263,32 +271,34 @@ nav #list li {
    margin-bottom: 10px;
 }
 
-nav ul li{
+nav ul li {
    margin-bottom: 30px;
    list-style: none;
    display: inline-flex;
    margin-left: 20px;
 }
 
-nav ul li a{
+nav ul li a {
    font-size: 28px;
    margin-left: 20px;
    text-decoration: none;
 }
+
 /* nav */
-.h1{
+.h1 {
    font-size: 60px;
    font-family: 'Times New Roman', Times, serif;
    margin-top: 50px;
    margin-bottom: 60px;
 }
 
-#more h1{
-   text-decoration:underline;
+#more h1 {
+   text-decoration: underline;
    text-align: center;
    font-size: xx-large;
 }
-#more .div{
+
+#more .div {
    display: inline-flex;
    font-size: 35px;
    margin-left: 60px;
@@ -297,6 +307,14 @@ nav ul li a{
    height: 20vh;
    padding-top: 30px;
 }
-#more {
+
+#more {}
+
+.amaka {
+   background-color: navy;
+   color: white;
+   height: 40px;
+   width: 100%;
+   padding: 10px 10px 10px;
 
 }
